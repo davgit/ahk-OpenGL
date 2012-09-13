@@ -253,7 +253,6 @@ return
 
 +F12::lines.remove(1)
 
-#Include OpenGL.ahk_l
 
 max(n, x*) {
     for k,v in x
@@ -268,3 +267,5 @@ min(n, x*) {
             n := v
     return n
 }
+
+#include <OpenGL>
